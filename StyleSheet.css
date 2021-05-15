@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'ZeroesCondensed';
+    src: url('zeroes one.ttf');
+}
+@font-face {
+    font-family: 'Zeroes';
+    src: url('zeroes three.ttf');
+}
+canvas {
+    background-color: black;
+    /*important for getting it to fit right*/
+    display: block;
+}
+div.input {
+    z-index: 2;
+    position: fixed;
+    top: 6%;
+    left: 6%;
+    right: 0%;
+    text-align: center;
+    font-family: Zeroes;
+    font-style: normal;
+    font-size: 1.5em;
+    background-color: rgba(134, 238, 238, 0.6);
+    border-color: #BFBFBF;
+    border-radius: 15px;
+    border-width: medium;
+    padding: 5px;
+    width: 40%;
+}
+div.input input {
+    width: 10%;
+    font-size: 1em;
+    font-family: Zeroes;
+}
